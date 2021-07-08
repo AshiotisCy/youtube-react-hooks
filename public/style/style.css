@@ -1,0 +1,124 @@
+.App {
+  margin-left: 2rem;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.video-detail .video-template {
+  border-radius: 5px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+.list-group-item {
+  cursor: pointer;
+  background-color: white;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.commentTitle {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.commentDate p {
+  margin-bottom: 5px;
+}
+
+.CommentDataSection  .commentText {
+  margin-bottom: 5px;
+}
+
+.CommentDataSection  .likes {
+  margin-bottom: 20px;
+}
+
+.CommentSection {
+  padding-left: 2rem !important;
+
+}
+
+.CommentsTitle {
+  padding-left: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.authorName {
+  font-size: 15px;
+  word-wrap: break-word;
+  display: flex;
+}
+
+.authorName .authornameSpacing {
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.authorImage {
+  text-align: left;
+}
+
+.authorImage img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.commentWrapper {
+  margin-bottom: 10px;;
+}
+
+.videoList {
+  display: flex;
+}
+
+.selected-video-body{
+  margin-left: 10px;
+}
+
+.searchButton {
+  background-color: white;
+  border: 0px solid;
+  margin-left: 5px;
+}
+
+.search-bar-inputField {
+  border: 0px solid;
+  background-color: #f3f3f3;
+}
+
+@media (min-width: 768px) {
+  .CommentsTitle {
+    margin-top: 40px;
+  }
+}
