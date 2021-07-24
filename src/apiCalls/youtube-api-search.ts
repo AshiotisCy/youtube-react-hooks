@@ -1,6 +1,6 @@
-var axios = require('axios');
+const axios = require('axios');
 
-var ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
+const ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
 
 
 export function YTSearch(options: {[k:string]: string}, callback: any) {
@@ -8,7 +8,7 @@ export function YTSearch(options: {[k:string]: string}, callback: any) {
   if (!options.key) {
     throw new Error('Youtube Search expected key, received undefined');
   }
-  var params = {
+  const params = {
     part: 'snippet',
     key: options.key,
     q: options.term,

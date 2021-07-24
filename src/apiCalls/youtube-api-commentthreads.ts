@@ -1,6 +1,6 @@
-var axios = require('axios');
+const axios = require('axios');
 
-var ROOT_URL = 'https://www.googleapis.com/youtube/v3/commentThreads';
+const ROOT_URL = 'https://www.googleapis.com/youtube/v3/commentThreads';
 
 
 export function YTCommentThreads(options: {[k:string]: string}, callback: any) {
@@ -8,7 +8,7 @@ export function YTCommentThreads(options: {[k:string]: string}, callback: any) {
   if (!options.key) {
     throw new Error('Youtube Search expected key, received undefined')
   }
-  var params = {
+  const params = {
     key: options.key,
     textFormat: options.textFormat,
     part: options.part,
