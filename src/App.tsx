@@ -72,7 +72,7 @@ function App() {
 
   return (
     <div className = "App">
-      {/* {console.log("videoListReducer", videoSelected)} */}
+      {console.log("state", videoList)}
       <SearchBar onSearchTermChange={videoSearched} />
       <VideoDetail video={videoSelected} />
       <VideoList
